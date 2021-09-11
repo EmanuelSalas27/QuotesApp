@@ -1,6 +1,6 @@
 # Quotes App
 Esta es una app en la cual podras obtener quotes al azar de animes.
-## Puedes probar esta app aqui: [Quotes App](https://google.com)
+## Puedes probar esta app aqui: [Quotes App](https://emanuelsalas27.github.io/QuotesApp/)
 ### Librerias y frameworks usados
 - React
 - Bounce.js
