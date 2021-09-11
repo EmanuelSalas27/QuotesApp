@@ -1,14 +1,15 @@
-import { useFetch, useFetchCors } from './hooks/useFetchCors'
+
 import './styles/styles.css'
 import './animations/rotate.css'
 import './animations/scale.css'
 import { shortName } from './helpers/longNames'
+import { useFetch } from './hooks/useFetch'
 
 
 
 export const QuotesScreen = () => {
     
-    const {state,handleFetch} = useFetchCors("https://animechan.vercel.app/api/random")
+    const {state,handleFetch} = useFetch("https://animechan.vercel.app/api/random")
     const {data,loading, error} = state
     let {anime = '',quote = '',character = ''} = data;
 
