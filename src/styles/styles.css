@@ -93,3 +93,18 @@
     }
     
 }
+
+@media (max-Width:700px) {
+    .anime{
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    .quote{
+        font-size: 18px;
+    }
+    .card{
+        width: 300px;
+        margin-top: 10px;
+    }
+}
